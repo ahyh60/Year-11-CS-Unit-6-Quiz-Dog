@@ -4,7 +4,9 @@ public class Dog {
     private String color;
 
     public Dog(){
-
+        age = 0;
+        name = "";
+        color = "";
     }
     public Dog(int a, String n, String c){
         age = a;
